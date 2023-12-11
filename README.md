@@ -43,7 +43,12 @@ makefile
 echo PATH=$PATH:/usr/local/bin
 ```
 
-Ao reiniciar a máquina, o PATH não vai estar mais no sistema
+2.4 Agora, caso queiramos editar o arquivo "teste.c", basta escrever o comando
+```
+renvim teste.c
+```
+
+2.5 Ao reiniciar a máquina, o PATH não vai estar mais no sistema
 
 ### 3. Inserindo no PATH "permanentemente"
 
@@ -60,6 +65,11 @@ makefile
 ```
 echo PATH=$PATH:/usr/local/bin
 ```
+3.4 Agora, caso queiramos editar o arquivo "teste.c", basta escrever o comando:
+```
+renvim teste.c
+```
+3.5 Para retirar esse diretório do PATH, retire a linha do arquivo .profile citado no 3.3 e reinicie a máquina
 
 ## INSTRUÇÕES DE USO
 
@@ -67,16 +77,16 @@ Editor de texto parecido com o "VIM"
 
 Enquanto no modo normal:
 
-Saír do programa: aperte "ESC" 3 vezes
-Mude o cursor a partir das "setinhas para esquerda e para direita"
-Entrar no modo de inserção : aperte "i'
+1. Saír do programa: aperte "ESC" 3 vezes
+2. Mude o cursor a partir das "setinhas para esquerda e para direita"
+3. Entrar no modo de inserção : aperte "i'
 
 
 Enquanto no modo de inserção:
 
-Para voltar ao modo normal: aperte "esc" ou "setinhas para o lado"
-Insere e remove caracteres normalmente.
+1. Para voltar ao modo normal: aperte "esc" ou "setinhas para o lado"
+2. Insere e remove caracteres normalmente.
 
 
-## CUIDADO: NÃO ABRA ARQUIVOS GRANDES OU IMPORTANTES COM ESSE EDITOR
+**CUIDADO: NÃO ABRA ARQUIVOS GRANDES OU IMPORTANTES COM ESSE EDITOR**
 
